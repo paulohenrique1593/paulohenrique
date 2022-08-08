@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #4169E1;
+    text-align: center;
+}
+
+#b{
+    text-transform: uppercase;
+    color: white;
+    padding: 3rem;
+
+}
+#b h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#b h2{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+header img{
+    border: solid 4px white;
+    border-radius: 200px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.34);
+    height: 187px;
+}
+#redesocial{
+    display: flex;
+    align-items: center;
+    flex-direction: line;
+    height: 190px;
+    justify-content: center;
+}
+#seguidores{
+    padding: 60px;
+}
+.numero{
+    color:#FFD700;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+.texto-numero{
+    color:#8B8B8B;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}
+
+#seguindo{
+    padding: 60px;
+}
+#sobre{
+    padding: 32px;
+    background-color:#EEEEEE;
+}
+#sobre h1{
+    margin-bottom: 32px;
+    text-align: center;
+    color: #4169E1;
+}
+#sobre p{
+    line-height: 1.6;
+    color: #8B8B8B;
+}
+#seguir{
+    padding: 4rem 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#seguir a{
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    display: block;
+    font-weight: bold;
+    background: #4169E1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 2rem;
+    width: 100%;
+}
+@media screen and (min-width: 960px){
+    #seguir a{
+        align-items: center;
+        width: 25rem;
+    }
+ }  
